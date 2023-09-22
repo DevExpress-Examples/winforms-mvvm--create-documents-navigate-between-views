@@ -3,8 +3,17 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T542778)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# Winforms MVVM - Create documents and navigate between views (DocumentManagerService)
+
+This example demonstrates how to use a local [DocumentManagerService](https://docs.devexpress.com/WindowsForms/114024/build-an-application/winforms-mvvm/design-time-support/control-based-services) to create new documents and navigate between them.
+
+The example uses the [NavigationFrame]() component to navigate between views (documents).
+
+![Winforms MVVM - Create documents and navigate between views](https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-documents-and-navigate-between-views-by-using-documentmanagerservice-t542778/17.1.4%2B/media/winforms-mvvm-navigation-service.gif)
+
+
+## Files to Review
 
 * [Customer.cs](./CS/WindowsApplication3/MVVM/Data/Customer.cs) (VB: [Customer.vb](./VB/WindowsApplication3/MVVM/Data/Customer.vb))
 * [DataAccess.cs](./CS/WindowsApplication3/MVVM/Data/DataAccess.cs) (VB: [DataAccess.vb](./VB/WindowsApplication3/MVVM/Data/DataAccess.vb))
@@ -17,13 +26,9 @@
 * [CustomersView.cs](./CS/WindowsApplication3/MVVM/Views/CustomersView.cs) (VB: [CustomersView.vb](./VB/WindowsApplication3/MVVM/Views/CustomersView.vb))
 * [MainView.cs](./CS/WindowsApplication3/MVVM/Views/MainView.cs) (VB: [MainView.vb](./VB/WindowsApplication3/MVVM/Views/MainView.vb))
 * [OrdersTestView.cs](./CS/WindowsApplication3/MVVM/Views/OrdersTestView.cs) (VB: [OrdersTestView.vb](./VB/WindowsApplication3/MVVM/Views/OrdersTestView.vb))
-* [Program.cs](./CS/WindowsApplication3/Program.cs) (VB: [Program.vb](./VB/WindowsApplication3/Program.vb))
-<!-- default file list end -->
-# How to create documents and navigate between views by using DocumentManagerService
 
 
-<p>This example illustrates how to use <strong>DocumentManagerService</strong> to create new documents and navigate between them. To show views (documents), we use <a href="https://documentation.devexpress.com/WindowsForms/DevExpress.XtraBars.Navigation.NavigationFrame.class">NavigationFrame</a>. Refer to the <a href="https://documentation.devexpress.com/WindowsForms/114024/Build-an-Application/WinForms-MVVM/Design-time-Support/Control-based-Services">Control-based Services</a> help article for more information regarding <strong>DocumentManagerService</strong>. </p>
+## Documentation
 
-<br/>
-
-
+* [WinForms MVVM](https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm)
+* [Navigation and View Management](https://docs.devexpress.com/WindowsForms/114173/build-an-application/winforms-mvvm/concepts/view-management)
