@@ -10,7 +10,7 @@ This example demonstrates how to use a local [DocumentManagerService](https://d
 
 The example uses the [NavigationFrame]() component to navigate between views (documents).
 
-![Winforms MVVM - Create documents and navigate between views](https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-documents-and-navigate-between-views-by-using-documentmanagerservice-t542778/17.1.4%2B/media/winforms-mvvm-navigation-service.gif)
+![WinForms MVVM - Create documents and navigate between views](https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-documents-and-navigate-between-views-by-using-documentmanagerservice-t542778/17.1.4%2B/media/winforms-mvvm-navigation-service.gif)
 
 
 ## Files to Review
